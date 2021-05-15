@@ -1,0 +1,39 @@
+h1 {
+    color:red;
+    text-align:center;
+}
+p, h2 {
+    color:brown;
+    text-align: center;
+}
+a {
+    color:lightblue;
+}
+.header {
+    background-color : lightseagreen;
+    display: flex;
+    justify-content: space-between;
+}
+.grid {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+} 
+.footer {
+    display: flex;
+    justify-content: flex-end;
+}
+body {
+    background-color: #808080;
+}
+.item {
+    color: #ff0000;
+    font-size: 20px;
+    border: double;
+    border-color: #223322;
+    border-bottom-style: dashed;
+    border-left-style: groove;
+    border-right-style: outset;
+    border-radius: 23px;
+    box-shadow: 5px 10px;
+}
